@@ -1,0 +1,184 @@
+html {
+	height: 95%;
+}
+
+body {
+	background-color: #4F81BC;
+	color:	#A30909;
+	font-family: calibri, arial, Arial, sans, Sans;
+	font-size: 12pt;
+	height: 100%;
+	vertical-align: middle;
+}
+
+table, div {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	color:	#A30909;
+	font-family: calibri, arial, Arial, sans, Sans;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+input {
+	font-weight: normal;
+}
+
+input.text, textarea.text {
+	background-color: white;
+	border: 1px solid black;
+	color: #7F7F7F;
+	text-align: right;
+}
+
+input.button {
+	background-color: orange;
+	border: 1px solid #7f7f7f;
+	font-family: calibri, arial, Arial, sans, Sans;
+	font-size: 10pt;
+}
+
+input.label {
+	background-color: transparent;
+	border: 0;
+	color:	#A30909;
+	font-family: calibri, arial, Arial, sans, Sans;
+	font-size: 10pt;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+select {
+	border: 1px solid black;
+}
+
+.logo {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.bigbox {
+	background-color: #f8bb88;
+	background-image: url('images/big-orange-gradient.png');
+	background-repeat: repeat-x;
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+	width: 440px;
+}
+.box {
+	background-color: #f8bb88;
+	background-image: url('images/small-orange-gradient.png');
+	background-repeat: repeat-x;
+	font-size: 10pt;
+	font-weight: bold;
+	margin: 50px;
+	text-align: center;
+	width: 150px;
+}
+
+.normaltext {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.headingtext {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+td.normaltext {
+	text-align: right;
+}
+.bigbox .cornerImage {
+	height: 37px;
+	width: 37px;
+}
+.box .cornerImage {
+	height: 10px;
+	width: 10px;
+}
+.box .tl, .bigbox .tl, .box .bl, .bigbox .bl { float: left; }
+.box .tr, .bigbox .tr, .box .br, .bigbox .br { float: right; }
+.bigbox .tl { background-image: url('images/table_topleft.png'); }
+.bigbox .tr { background-image: url('images/table_topright.png'); }
+.bigbox .bl { clear: both; position: relative; top: 2px; background-image: url('images/table_bottomleft.png'); }
+.bigbox .br { position: relative; top: 2px; background-image: url('images/table_bottomright.png'); }
+.box .tl { background-image: url('images/small_box_topleft.png'); }
+.box .tr { background-image: url('images/small_box_topright.png'); }
+.box .bl { position: relative; top: 6px; background-image: url('images/small_box_bottomleft.png'); }
+.box .br { position: relative; top: 6px; background-image: url('images/small_box_bottomright.png'); }
+
+.bigbox .content { padding-top: 10px; }
+.box .content { padding-top: 10px; padding-bottom: 3px; }
+.box .content table tr td { padding-top: 5px; font-size: 12pt; text-align: center; }
+
+.fineprint {
+	color: black;
+	font-family: arial, Arial, sans, Sans;
+	font-size: 8pt;
+	font-weight: normal;
+	vertical-align: bottom;
+}
+
+.bigbox .fineprint {
+	padding-bottom: 4px;
+	padding-top: 19px;
+}
+
+.errorbox {
+	background-color: #f8bb88;
+	background-image: url('images/small-orange-gradient.png');
+	background-repeat: repeat-x;
+	border: 2px solid red;
+	color: red;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.warningbox {
+	background-color: #f8bb88;
+	background-image: url('images/small-orange-gradient.png');
+	background-repeat: repeat-x;
+	border: 2px solid yellow;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.messagebox {
+	background-color: #f8bb88;
+	background-image: url('images/small-orange-gradient.png');
+	background-repeat: repeat-x;
+	border: 2px solid green;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.listbox {
+	background-color: #f8d6ba;
+	border: 1px solid #f8a560;
+	cursor: pointer;
+	cursor: hand;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5px;
+	text-align: left;
+	width: 90%;
+}
