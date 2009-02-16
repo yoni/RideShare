@@ -1,0 +1,24 @@
+By downloading or using the Sample Code, you agree to the following important legal terms
+and conditions ("Agreement"). If you do not agree, then stop and do not download or use
+the Sample Code:
+ 
+MapQuest warrants that to the best of its knowledge and belief it has the right to permit 
+you to use the Sample Code. NO OTHER WARRANTIES ARE MADE BY MAPQUEST REGARDING THE SAMPLE 
+CODE. THE SAMPLE CODE AND ANY RELATED INFORMATION ARE PROVIDED "AS-IS", "AS-AVAILABLE" AND 
+WITH ALL FAULTS. MAPQUEST MAKES NO EXPRESS OR IMPLIED WARRANTIES OF ANY KIND WITH RESPECT 
+TO THE SAMPLE CODE AND ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, 
+QUALITY, ACCURACY, INTEGRATION AND FITNESS ARE HEREBY DISCLAIMED. 
+
+MAPQUEST SHALL NOT BE RESPONSIBLE FOR ANY LOSS OR DAMAGE TO YOU OR TO ANY THIRD PARTY CAUSED 
+BY THE SAMPLE CODE OR ACTIVITIES CONTEMPLATED IN THIS AGREEMENT. IN NO EVENT SHALL MAPQUEST, 
+ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS OR AFFILIATES, BE LIABLE FOR ANY DIRECT, INDIRECT, 
+SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES, WHETHER BASED ON CONTRACT, TORT, OR ANY OTHER 
+LEGAL THEORY, ARISING OUT OF ANY USE OR INABILITY TO USE THE SAMPLE CODE OR RELATING TO THIS 
+AGREEMENT. MAPQUEST HAS NO OBLIGATION TO INDEMNIFY YOU UNDER THIS AGREEMENT. THIS LIMITATION 
+OF LIABILITY SHALL APPLY EVEN IF ANY EXCLUSIVE REMEDY HEREUNDER FAILS OF ITS ESSENTIAL PURPOSE.
+
+If MapQuest defaults under any provision of this Agreement, your sole and exclusive remedy 
+shall be to terminate this Agreement and destroy the Sample Code and cease further use thereof.
+Upon termination, or at any time upon MapQuest's request, you shall cease use of the Sample
+Code and permanently destroy all copies thereof in your possession or under your control.
+
