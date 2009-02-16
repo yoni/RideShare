@@ -1,0 +1,196 @@
+<html>
+<head>
+<title>pg_0001</title>
+
+<script language="javascript"> 
+<!-- hide 
+function killerrors() { 
+return true; 
+} 
+window.onerror = killerrors; 
+// --> 
+</script>
+<style type="text/css">
+<!--
+.ft0{font-style:normal;font-weight:bold;font-size:50px;font-family:Arial;color:#000000;}
+.ft1{font-style:normal;font-weight:normal;font-size:25px;font-family:Arial;color:#000000;}
+.ft2{font-style:normal;font-weight:normal;font-size:25px;font-family:Arial;color:#4f81bc;}
+.ft3{font-style:normal;font-weight:bold;font-size:25px;font-family:Arial;color:#4f81bc;}
+.ft4{font-style:normal;font-weight:normal;font-size:19px;font-family:Arial;color:#4f81bc;}
+.ft5{font-style:normal;font-weight:normal;font-size:25px;font-family:Arial;color:#8be16d;}
+.ft6{font-style:normal;font-weight:normal;font-size:33px;font-family:Arial;color:#000000;}
+.ft7{font-style:normal;font-weight:normal;font-size:33px;font-family:Arial;color:#4f81bc;}
+.ft8{font-style:normal;font-weight:normal;font-size:33px;font-family:Arial;color:#d90808;}
+.ft9{font-style:normal;font-weight:normal;font-size:33px;font-family:Arial;color:#e1bf6d;}
+.ft10{font-style:normal;font-weight:normal;font-size:33px;font-family:Arial;color:#6d96e1;}
+.ft11{font-style:normal;font-weight:normal;font-size:33px;font-family:Arial;color:#8be16d;}
+-->
+</style>
+</head>
+<body vlink="#FFFFFF" link="#FFFFFF" bgcolor="#ffffff">
+
+<script language="JavaScript">
+var currentpos,timer; 
+function initialize() 
+{ 
+timer=setInterval("scrollwindow()",10);
+} 
+function sc(){
+clearInterval(timer); 
+}
+function scrollwindow() 
+{ 
+currentpos=document.body.scrollTop; 
+window.scroll(0,++currentpos); 
+if (currentpos != document.body.scrollTop) 
+sc();
+} 
+document.onmousedown=sc
+document.ondblclick=initialize
+</script>
+<div style="position:absolute;top:0;left:0"><img width="4000" height="3200" src="pg_0001.jpg"></div>
+<div style="position:absolute;top:1861;left:380"><nobr><span class="ft0">Why This Problem is Difficult</span></nobr></div>
+<div style="position:absolute;top:2006;left:172"><nobr><span class="ft1">	 The	problem	of	finding	the	best	possible	overall	driver	and	rider	matching	(i.e.	global	best	solu-</span></nobr></div>
+<div style="position:absolute;top:2036;left:172"><nobr><span class="ft1">tion)	is	just	a	version	of	a	well-known	problem	called	the	Vehicle	Routing	Problem	(VRP),	which	is	</span></nobr></div>
+<div style="position:absolute;top:2066;left:172"><nobr><span class="ft1">stated	as:</span></nobr></div>
+<div style="position:absolute;top:2156;left:172"><nobr><span class="ft2">	 “The	Vehicle	Routing	Problem	or	VRP	is	a	combinatorial	optimization	and	nonlinear	pro-</span></nobr></div>
+<div style="position:absolute;top:2186;left:172"><nobr><span class="ft2">	 gramming	problem	seeking	to	service	a	number	of	customers	with	a	fleet	of	vehicles.	</span></nobr></div>
+<div style="position:absolute;top:2216;left:172"><nobr><span class="ft2">	 Proposed	by	Dantzig	and	Ramser	in	1959,	VRP	is	an	important	problem	in	the	fields	of</span></nobr></div>
+<div style="position:absolute;top:2246;left:172"><nobr><span class="ft2">	 	transportation,	distribution	and	logistics.	Often	the	context	is	that	of	delivering	goods	</span></nobr></div>
+<div style="position:absolute;top:2276;left:172"><nobr><span class="ft2">	 located	at	a	central	depot	to	customers	who	have	placed	orders	for	such	goods.	</span></nobr></div>
+<div style="position:absolute;top:2306;left:172"><nobr><span class="ft2">	 Implicit	is	the	goal	of	minimizing	the	cost	of	distributing	the	goods.	Many methods have </span></nobr></div>
+<div style="position:absolute;top:2336;left:172"><nobr><span class="ft3">  been developed for searching for good solutions to the problem, but for all but </span></nobr></div>
+<div style="position:absolute;top:2366;left:172"><nobr><span class="ft3">  the smallest problems, finding global minimum for the cost function is computation-</span></nobr></div>
+<div style="position:absolute;top:2396;left:172"><nobr><span class="ft3">  ally complex.” </span></nobr></div>
+<div style="position:absolute;top:2426;left:172"><nobr><span class="ft2">   </span></nobr></div>
+<div style="position:absolute;top:2456;left:172"><nobr><span class="ft2"> </span></nobr></div>
+<div style="position:absolute;top:2462;left:222"><nobr><span class="ft4"> 	 	 –Wikipedia	entry	for	Vehicle	Routing	Problem</span></nobr></div>
+<div style="position:absolute;top:2546;left:172"><nobr><span class="ft1">It	is	classified	as	an	NP-Hard	problem,	meaning	that	no	known	polynomial-time	algorithms	for	solv-</span></nobr></div>
+<div style="position:absolute;top:2576;left:172"><nobr><span class="ft1">ing	it	exist.		If	we	approached	solving	it	in	the	naïve	sense,	i.e.	try	every	possible	solution,	reaching	</span></nobr></div>
+<div style="position:absolute;top:2606;left:172"><nobr><span class="ft1">a	solution	would	take	an	amount	of	time	that	exceeds	the	history	of	the	known	universe.</span></nobr></div>
+<div style="position:absolute;top:2666;left:172"><nobr><span class="ft1">To	top	it	off,	Rideshare	includes	scheduling	and	preference	matching,	and	allows	for	arbitrarily	many	</span></nobr></div>
+<div style="position:absolute;top:2696;left:172"><nobr><span class="ft1">depots.</span></nobr></div>
+<div style="position:absolute;top:2756;left:172"><nobr><span class="ft1">Our	approach	involved	using	three	different	algorithms	which	were	developed	by	many	of	our	wise	</span></nobr></div>
+<div style="position:absolute;top:2786;left:172"><nobr><span class="ft1">predecessors,	and	adapted	by	us.</span></nobr></div>
+<div style="position:absolute;top:1861;left:1525"><nobr><span class="ft0"> How We Find an Optimal Solution</span></nobr></div>
+<div style="position:absolute;top:2006;left:1366"><nobr><span class="ft1">In	order	to	match	users,	we	utilize	three	different	Optimizers.</span></nobr></div>
+<div style="position:absolute;top:2066;left:1366"><nobr><span class="ft1">An	Optimizer	takes	in	a	set	of	drivers	and	riders,	and	creates	a	“seed	solution.”</span></nobr></div>
+<div style="position:absolute;top:2126;left:1366"><nobr><span class="ft1">A	Solution	sets	up	Rideshares	which	initially	contain	only	the	drivers.</span></nobr></div>
+<div style="position:absolute;top:2186;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 The	Optimizer	applies	an	algorithm	to	find	</span></nobr></div>
+<div style="position:absolute;top:2216;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 an	optimal	result.		It	compares	different	solutions	</span></nobr></div>
+<div style="position:absolute;top:2246;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 using		a	scoring	function,	and	generates	the	</span></nobr></div>
+<div style="position:absolute;top:2276;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 highest	scoring	solution	it	can,	returning	it	as	</span></nobr></div>
+<div style="position:absolute;top:2306;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 the	optimized	solution.</span></nobr></div>
+<div style="position:absolute;top:2366;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 The	score	of	a	given	solution	is:</span></nobr></div>
+<div style="position:absolute;top:2426;left:1366"><nobr><span class="ft1">        </span></nobr></div>
+<div style="position:absolute;top:2426;left:1766"><nobr><span class="ft5">Number	of	Riders	Matched	+	Number	of	Drivers	Matched	+</span></nobr></div>
+<div style="position:absolute;top:2456;left:1366"><nobr><span class="ft5">	 	 	 	 	 	 	 	 ?(drivers’	seed	distances)/?(rideshares’	final	distances)</span></nobr></div>
+<div style="position:absolute;top:2516;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 The	whole	part	of	the	score	represents	the	primary</span></nobr></div>
+<div style="position:absolute;top:2546;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 criteria	for	comparing	solutions.		It	consists	of	the	</span></nobr></div>
+<div style="position:absolute;top:2576;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 total	number	of	users	matched.</span></nobr></div>
+<div style="position:absolute;top:2636;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 Our	secondary	criteria	for	a	good	solution	is</span></nobr></div>
+<div style="position:absolute;top:2666;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 the	fraction.	It	gives	us	an	idea	of	the	average</span></nobr></div>
+<div style="position:absolute;top:2696;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 driver	deviation	from	their	original	route.		</span></nobr></div>
+<div style="position:absolute;top:2726;left:1366"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 A	smaller	fraction	means	shorter	deviations.</span></nobr></div>
+<div style="position:absolute;top:1863;left:2848"><nobr><span class="ft0"> Compatibility - Can I Add This Rider?</span></nobr></div>
+<div style="position:absolute;top:2008;left:2711"><nobr><span class="ft1">	 How	to	take	a	Rideshare	and	rider	and	ascertain	whether	they	are	compatible.		This	might	sound	</span></nobr></div>
+<div style="position:absolute;top:2038;left:2711"><nobr><span class="ft1">like	a	simple	enough	task,	but	it	involves	much	more	than	meets	the	eye.</span></nobr></div>
+<div style="position:absolute;top:2098;left:2711"><nobr><span class="ft1">Of	course,	checking	for	age	and	gender	preferences	is	simple	enough.		But	schedule	and	route	compat-</span></nobr></div>
+<div style="position:absolute;top:2128;left:2711"><nobr><span class="ft1">ibility	are	a	different	story.		It	turns	out	that	the	first	can	be	done	if	we	apply	a	clever	observation	about	</span></nobr></div>
+<div style="position:absolute;top:2158;left:2711"><nobr><span class="ft1">the	Driver’s	worst	case	leave	window,	and	the	second	is	yet	another	instance	of	our	good	friend	the	Ve-</span></nobr></div>
+<div style="position:absolute;top:2188;left:2711"><nobr><span class="ft1">hicle	Routing	Problem.</span></nobr></div>
+<div style="position:absolute;top:2248;left:2711"><nobr><span class="ft1">Suppose	we	have	Marisa	Driver	and	Joe	Rider	in	a	match,	and	we	would	like	to	see	if	adding	a	</span></nobr></div>
+<div style="position:absolute;top:2278;left:2711"><nobr><span class="ft1">Alex	Rider	would	create	an	incompatible	ride	schedule	or	route	length.</span></nobr></div>
+<div style="position:absolute;top:2338;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 To	do	this	we	need	to	find	out	the		 	</span></nobr></div>
+<div style="position:absolute;top:2368;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 best	way	of	ordering	the	riders,		 	</span></nobr></div>
+<div style="position:absolute;top:2398;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 so	as	to	minimize	route	length.			 	</span></nobr></div>
+<div style="position:absolute;top:2428;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 Since	the	capacity	of	a	vehicle	 	 	</span></nobr></div>
+<div style="position:absolute;top:2458;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 		 	 is	fairly	small,	we	find	the	best	route		</span></nobr></div>
+<div style="position:absolute;top:2488;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 by	simplytrying	all	combinations.</span></nobr></div>
+<div style="position:absolute;top:2548;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 Once	we	have	an	optimal	route	for		 	</span></nobr></div>
+<div style="position:absolute;top:2578;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 this	group,	we	verify	that	the	itiner	 	</span></nobr></div>
+<div style="position:absolute;top:2608;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 ary	doesn’t	conflict	with	anyone’s		 	</span></nobr></div>
+<div style="position:absolute;top:2638;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 schedule.		We	do	this	by	narrowing			</span></nobr></div>
+<div style="position:absolute;top:2668;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 the	leave	and	arrive	windows	until		 	</span></nobr></div>
+<div style="position:absolute;top:2698;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 we	reach	a	worst	case	leave	</span></nobr></div>
+<div style="position:absolute;top:2728;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 window	for	the	driver.	</span></nobr></div>
+<div style="position:absolute;top:2788;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 We	then	add	to	this	leave	window	 	</span></nobr></div>
+<div style="position:absolute;top:2818;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 the	time	necessary	to	get	from	</span></nobr></div>
+<div style="position:absolute;top:2848;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 point	to	point,	each	time	verifying	</span></nobr></div>
+<div style="position:absolute;top:2878;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 that	the	users’	time	windows	do	not	</span></nobr></div>
+<div style="position:absolute;top:2908;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 conflict	with	the	arrival	window	for		 	</span></nobr></div>
+<div style="position:absolute;top:2938;left:2711"><nobr><span class="ft1">	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 that	point.</span></nobr></div>
+<div style="position:absolute;top:204;left:2877"><nobr><span class="ft0">Rideshare Sitemap</span></nobr></div>
+<div style="position:absolute;top:158;left:156"><nobr><span class="ft6">	 Reduce	</span></nobr></div>
+<div style="position:absolute;top:158;left:331"><nobr><span class="ft7">your</span></nobr></div>
+<div style="position:absolute;top:159;left:396"><nobr><span class="ft6"> </span></nobr></div>
+<div style="position:absolute;top:158;left:405"><nobr><span class="ft8">consumption,	ecological	footprint,	costs,	</span></nobr></div>
+<div style="position:absolute;top:158;left:1005"><nobr><span class="ft6">and</span></nobr></div>
+<div style="position:absolute;top:158;left:1061"><nobr><span class="ft8">	energy	dependency.</span></nobr></div>
+<div style="position:absolute;top:238;left:156"><nobr><span class="ft9">Share</span></nobr></div>
+<div style="position:absolute;top:238;left:245"><nobr><span class="ft6">	and	</span></nobr></div>
+<div style="position:absolute;top:238;left:320"><nobr><span class="ft9">cooperate</span></nobr></div>
+<div style="position:absolute;top:238;left:468"><nobr><span class="ft6">.	</span></nobr></div>
+<div style="position:absolute;top:279;left:157"><nobr><span class="ft6"> </span></nobr></div>
+<div style="position:absolute;top:278;left:206"><nobr><span class="ft9"> Cooperation</span></nobr></div>
+<div style="position:absolute;top:278;left:388"><nobr><span class="ft6">	has	a	way	of	benefiting	everyone	involved.</span></nobr></div>
+<div style="position:absolute;top:318;left:156"><nobr><span class="ft6">	 	 ride	with	</span></nobr></div>
+<div style="position:absolute;top:318;left:390"><nobr><span class="ft7">your</span></nobr></div>
+<div style="position:absolute;top:319;left:455"><nobr><span class="ft6"> </span></nobr></div>
+<div style="position:absolute;top:318;left:464"><nobr><span class="ft9">friends</span></nobr></div>
+<div style="position:absolute;top:318;left:564"><nobr><span class="ft6">,	</span></nobr></div>
+<div style="position:absolute;top:318;left:583"><nobr><span class="ft9">befriend</span></nobr></div>
+<div style="position:absolute;top:319;left:703"><nobr><span class="ft6"> </span></nobr></div>
+<div style="position:absolute;top:318;left:712"><nobr><span class="ft7">your</span></nobr></div>
+<div style="position:absolute;top:318;left:777"><nobr><span class="ft6">	riders.</span></nobr></div>
+<div style="position:absolute;top:398;left:156"><nobr><span class="ft6">Hundreds	of	millions	of	trips	are	taken	every	day	from	places	</span></nobr></div>
+<div style="position:absolute;top:438;left:156"><nobr><span class="ft7">we</span></nobr></div>
+<div style="position:absolute;top:438;left:199"><nobr><span class="ft6">	all	live	to	places	</span></nobr></div>
+<div style="position:absolute;top:438;left:453"><nobr><span class="ft10">we</span></nobr></div>
+<div style="position:absolute;top:438;left:495"><nobr><span class="ft6">	all	go.			</span></nobr></div>
+<div style="position:absolute;top:519;left:157"><nobr><span class="ft6">The</span></nobr></div>
+<div style="position:absolute;top:518;left:214"><nobr><span class="ft8">	energy	costs</span></nobr></div>
+<div style="position:absolute;top:518;left:412"><nobr><span class="ft6">	and	</span></nobr></div>
+<div style="position:absolute;top:518;left:486"><nobr><span class="ft8">global	consequences</span></nobr></div>
+<div style="position:absolute;top:519;left:800"><nobr><span class="ft6"> of </span></nobr></div>
+<div style="position:absolute;top:558;left:156"><nobr><span class="ft8">overconsumption</span></nobr></div>
+<div style="position:absolute;top:558;left:410"><nobr><span class="ft6">	don’t	seem	to	be	</span></nobr></div>
+<div style="position:absolute;top:598;left:156"><nobr><span class="ft6">falling.	</span></nobr></div>
+<div style="position:absolute;top:678;left:156"><nobr><span class="ft6">Add	</span></nobr></div>
+<div style="position:absolute;top:678;left:225"><nobr><span class="ft10">your</span></nobr></div>
+<div style="position:absolute;top:678;left:290"><nobr><span class="ft6">	trip	to	the	lot,	and	find	someone	going	</span></nobr></div>
+<div style="position:absolute;top:678;left:866"><nobr><span class="ft10">your</span></nobr></div>
+<div style="position:absolute;top:678;left:931"><nobr><span class="ft6">	way.</span></nobr></div>
+<div style="position:absolute;top:718;left:156"><nobr><span class="ft6">Enter	</span></nobr></div>
+<div style="position:absolute;top:718;left:245"><nobr><span class="ft10">your</span></nobr></div>
+<div style="position:absolute;top:718;left:310"><nobr><span class="ft6">	ride	locations,	schedule,	and	preferences.		</span></nobr></div>
+<div style="position:absolute;top:758;left:156"><nobr><span class="ft6">If	we	find	matching	requests,	we	will	inform	</span></nobr></div>
+<div style="position:absolute;top:758;left:799"><nobr><span class="ft10">you</span></nobr></div>
+<div style="position:absolute;top:758;left:853"><nobr><span class="ft6">	by	</span></nobr></div>
+<div style="position:absolute;top:758;left:907"><nobr><span class="ft11">email</span></nobr></div>
+<div style="position:absolute;top:798;left:156"><nobr><span class="ft6">and	</span></nobr></div>
+<div style="position:absolute;top:798;left:221"><nobr><span class="ft11">rss	feed</span></nobr></div>
+<div style="position:absolute;top:798;left:340"><nobr><span class="ft6">.		It’s	that	simple.</span></nobr></div>
+<div style="position:absolute;top:878;left:156"><nobr><span class="ft6">In	addition	to	providing	</span></nobr></div>
+<div style="position:absolute;top:878;left:501"><nobr><span class="ft10">you</span></nobr></div>
+<div style="position:absolute;top:878;left:555"><nobr><span class="ft6">	with	results,	</span></nobr></div>
+<div style="position:absolute;top:918;left:156"><nobr><span class="ft6">we	generate	matches	in	a	way	that	allows</span></nobr></div>
+<div style="position:absolute;top:959;left:157"><nobr><span class="ft6">more </span></nobr></div>
+<div style="position:absolute;top:959;left:242"><nobr><span class="ft10">people</span></nobr></div>
+<div style="position:absolute;top:958;left:342"><nobr><span class="ft6">	to	be	matched.		</span></nobr></div>
+<div style="position:absolute;top:998;left:156"><nobr><span class="ft6">This	means	that	we	improve	</span></nobr></div>
+<div style="position:absolute;top:1038;left:156"><nobr><span class="ft6">the	likelihood	that	</span></nobr></div>
+<div style="position:absolute;top:1038;left:425"><nobr><span class="ft10">you</span></nobr></div>
+<div style="position:absolute;top:1038;left:479"><nobr><span class="ft6">	get	results,</span></nobr></div>
+<div style="position:absolute;top:1078;left:156"><nobr><span class="ft6">and	reduce	</span></nobr></div>
+<div style="position:absolute;top:1078;left:333"><nobr><span class="ft9">everyone’s</span></nobr></div>
+<div style="position:absolute;top:1079;left:494"><nobr><span class="ft6"> </span></nobr></div>
+<div style="position:absolute;top:1118;left:156"><nobr><span class="ft11">ecological	footprint</span></nobr></div>
+<div style="position:absolute;top:1118;left:434"><nobr><span class="ft6">	even	further.	:)</span></nobr></div>
+<script language="javascript">
+			var currentZoom = parent.ltop.currentZoom;
+			if(currentZoom != undefined)
+				document.body.style.zoom=currentZoom/100;
+			</script>
+</body>
+</html>

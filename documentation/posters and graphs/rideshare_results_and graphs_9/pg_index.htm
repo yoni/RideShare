@@ -1,0 +1,63 @@
+<html><head><title>bookmark_Test</title><base target="contents">
+<style type="text/css"><!--body{ margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; background-color: #FFFFFF}
+.toolbar { width: 100px; font: 12px Verdana, Arial, Helvetica, sans-serif; color: #000000; margin-top: -1px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+img { border: 0}
+A:link {text-decoration: none; color: blue}
+A:visited {text-decoration: none; color: purple}
+A:active {text-decoration: red}
+A:hover {text-decoration: underline; color:red}
+-->        
+</style>
+<script language="javascript"> 
+<!-- hide 
+function killerrors() { 
+return true; 
+} 
+window.onerror = killerrors; 
+// --> 
+</script> 
+<script language="javascript">
+//////////////////////////////////////////////////////////////
+//
+//  Description	: PDF2HTML software
+//  Author	: verypdf.com Inc
+//  Version	: Ver1.2
+//  Platform	: Windows95/98/Me/NT/2000/XP, IE4/IE5/IE6
+//  Date	: 2002/04/03
+//
+//  Copyright(C) 2000--2003 verypdf.com Inc
+//      
+//  Contact infomation:
+//        http://www.verypdf.com/
+//        http://www.globalpdf.com/
+//        http://www.toppdf.com/
+//
+//        support@verypdf.com
+//
+//////////////////////////////////////////////////////////////
+function MyGotoPage(newPage)
+{
+	parent.ltop.gotopage(newPage);
+}
+</script></head><body style="border-right: 2 solid #CCCCCC">
+<table border="0" width="134" class="toolbar">
+<script language="javascript">
+var firstpage = parent.ltop.firstpage;
+var lastpage = parent.ltop.lastpage;
+var currentPage = parent.ltop.currentPage;
+for(i = firstpage; i <= lastpage; i++)
+{
+	var pagenumber = new String(i-firstpage+1);
+	var tempstring = new String;
+	tempstring = "<tr><td><img src='";
+	if(i == currentPage)
+		tempstring += "pg_page2.gif";
+	else
+		tempstring += "pg_page.gif";
+	tempstring += "'><a href='#' onClick='javascript:MyGotoPage(" + pagenumber + "); return false'>Page "+ pagenumber + "</a></td></tr>";
+	//alert(tempstring);
+	document.writeln(tempstring);
+}
+</script>
+</table>
+</body></html>

@@ -1,0 +1,268 @@
+<html><head><title>bookmark_Test</title><base target="lbottom">
+<style type="text/css"><!--body{ margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; background-color: #CCCCCC}
+.toolbar { width: 60px; font: 10px Verdana, Arial, Helvetica, sans-serif; color: #000000; margin-top: -1px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+img { border: 0}--></style>
+<script language="javascript"> 
+<!-- hide 
+function killerrors() { 
+return true; 
+} 
+window.onerror = killerrors; 
+// --> 
+</script> 
+<script language="javascript">
+//////////////////////////////////////////////////////////////
+//
+//  Description	: PDF2HTML software
+//  Author	: verypdf.com Inc
+//  Version	: Ver1.2
+//  Platform	: Windows95/98/Me/NT/2000/XP, IE4/IE5/IE6
+//  Date	: 2002/04/03
+//
+//  Copyright(C) 2000--2003 verypdf.com Inc
+//      
+//  Contact infomation:
+//        http://www.verypdf.com/
+//        http://www.globalpdf.com/
+//        http://www.toppdf.com/
+//
+//        support@verypdf.com
+//
+//////////////////////////////////////////////////////////////
+var firstpage = parent.firstpage;
+var lastpage = parent.lastpage;
+var currentPage = firstpage;
+var currentZoom = 100;
+
+var IsPageIndexLoaded = 1;
+function showhideleftpane()
+{
+	if(parent.leftpane.cols != "0,*")
+	{
+		parent.leftpane.cols = "0,*"
+		document.LeftPaneButton.src = "pg_lpane2.gif"
+	}
+	else
+	{
+		parent.leftpane.cols = "150,*"
+		document.LeftPaneButton.src = "pg_lpane1.gif"
+	}
+}
+function OpenIndexPage()
+{
+	if(IsPageIndexLoaded == 1 && parent.leftpane.cols != "0,*")
+		return;
+	IsPageIndexLoaded = 1;
+	parent.leftpane.cols = "150,*"
+	document.LeftPaneButton.src = "pg_lpane1.gif"
+	parent.lbottom.location.href = "pg_index.htm";
+}
+function OpenBookMarksPage()
+{
+	if(IsPageIndexLoaded == 0 && parent.leftpane.cols != "0,*")
+		return;
+	IsPageIndexLoaded = 0;
+	parent.leftpane.cols = "150,*"
+	document.LeftPaneButton.src = "pg_lpane1.gif"
+	parent.lbottom.location.href = "pg_bmark.htm";
+}
+function gotopage(newPage)
+{
+	if(newPage >= firstpage && newPage <= lastpage)
+	{
+		currentPage = parseInt(newPage);
+		var strnewpage = new String("pg_");
+		var szPageNum = new String(newPage);
+		var szPageNumLen = 4 - szPageNum.length;
+		for (i = 0; i < szPageNumLen; i++)
+	 		 strnewpage += "0";
+		strnewpage = strnewpage + szPageNum + ".htm";
+		parent.contents.location.href = strnewpage;
+		document.pageListForm.pageList.selectedIndex = newPage-firstpage;
+		
+		document.FirstPageButton.src = "pg_first.gif";
+		document.BackPageButton.src = "pg_back.gif";
+		document.NextPageButton.src = "pg_next.gif"
+		document.EndPageButton.src = "pg_end.gif"
+		if(currentPage == firstpage)
+		{
+			document.FirstPageButton.src = "pg_first2.gif";
+			document.BackPageButton.src = "pg_back2.gif";
+		}
+		if(currentPage == lastpage)
+		{
+			document.NextPageButton.src = "pg_next2.gif";
+			document.EndPageButton.src = "pg_end2.gif";
+		}
+		if(IsPageIndexLoaded == 1)
+		{
+			for(i = firstpage; i <= lastpage; i++)
+			{
+				if(i-firstpage < parent.lbottom.document.images.length)
+				{
+					if(i == currentPage)
+						parent.lbottom.document.images[i-firstpage].src = "pg_page2.gif";
+					else
+						parent.lbottom.document.images[i-firstpage].src = "pg_page.gif";
+				}
+			}
+		}
+	}
+}
+function pageChange(selObj)
+{
+	var newPage = selObj.options[selObj.selectedIndex].value;
+	gotopage(parseInt(newPage));
+}
+function setNewZoom(newZoom)
+{
+	if(newZoom >= 50 && newZoom <= 200)
+	{
+		if(currentZoom != newZoom )
+		{
+			currentZoom = newZoom;
+			parent.contents.document.body.style.zoom=newZoom/100;
+			document.zoomList.zoomSelected.selectedIndex = (newZoom-50)/10;
+		}
+	}
+}
+function zoomIn()
+{
+	setNewZoom(currentZoom+10);
+}
+function zoomOut()
+{
+	setNewZoom(currentZoom-10);
+}
+function zoomChange(selObj)
+{
+	var newZoom = selObj.options[selObj.selectedIndex].value;
+	setNewZoom(parseInt(newZoom));
+}
+
+var mode=0
+var old=new Array();
+function fullme(e)
+{
+	if(mode==0)
+	{
+		if(typeof document.all!='undefined')
+		{
+			if(top.document.body.offsetWidth==screen.availWidth)
+			{
+				alert("Your IE window has been locked, so you can't use the full screen mode, you may double click on your IE caption bar and try again.");
+				e.returnValue=false;
+				return false;
+			}
+			top.moveBy(e.clientX-e.screenX,e.clientY-e.screenY);
+			top.resizeBy(screen.availWidth-top.document.body.offsetWidth,
+			screen.availHeight-top.document.body.offsetHeight);
+		}
+		else
+		{
+			window.top.moveTo(0,0);
+			window.top.resizeTo(screen.availWidth,screen.availHeight);
+			old[0]=window.toolbar.visible;
+			old[1]=window.statusbar.visible;
+			old[2]=window.menubar.visible;
+			window.toolbar.visible=false;
+			window.statusbar.visible=false;
+			window.menubar.visible=false;
+		}
+		mode=1;
+	}
+	else
+	{
+		if(typeof document.all!='undefined')
+		{
+			top.moveTo(0,0);
+			top.resizeTo(screen.availWidth,screen.availHeight);
+		}
+		else
+		{
+			window.toolbar.visible=old[0];
+			window.statusbar.visible=old[1];
+			window.menubar.visible=old[2];
+		}
+		mode=0;
+	}
+	return true;
+}
+
+</script>
+
+
+</head><body bgcolor="#CCCCCC">
+<table border="0" width="134" class="toolbar">
+  <tr>
+    <td valign="top"><a href="#" onClick="javascript:showhideleftpane(); return false">		<img name="LeftPaneButton" border="0" src="pg_lpane1.gif" alt="show or hide left pane"></a></td>
+    <td valign="top"><a href="#" onClick="javascript:OpenIndexPage(); return false">		<img border="0" src="pg_index.gif" alt="show page index"></a></font></td>
+    <td valign="top"><a href="#" onClick="javascript:OpenBookMarksPage(); return false">	<img border="0" src="pg_bmark.gif" alt="show page bookmarks"></a></font></td>
+    <td valign="top"><a href="#" onClick="javascript:gotopage(parseInt(firstpage)); return false">	<img name="FirstPageButton" border="0" src="pg_first.gif" alt="go to first page"></a></td>
+    <td valign="top"><a href="#" onClick="javascript:gotopage(parseInt(currentPage)-1); return false">	<img name="BackPageButton" border="0"  src="pg_back.gif"  alt="go to previous page"></a></td>
+    <td valign="top"><a href="#" onClick="javascript:gotopage(parseInt(currentPage)+1); return false">	<img name="NextPageButton" border="0"  src="pg_next.gif"  alt="go to next page"></a></td>
+    <td valign="top"><a href="#" onClick="javascript:gotopage(parseInt(lastpage)); return false">		<img name="EndPageButton" border="0"   src="pg_end2.gif"  alt="go to last page"></a></td>
+    <td valign="top"><a href="#" onclick="parent.contents.history.back(); return false">	<img border="0" src="pg_hisback.gif" alt="go to previous view"></a></td>
+    <td valign="top"><a href="#" onclick="parent.contents.history.forward(); return false">	<img border="0" src="pg_hisnext.gif" alt="go to last view"></a></td>
+    <td valign="top"><form name="pageListForm">
+<select name="pageList" onChange="pageChange(this)" class="PageBox">
+
+<script language="javascript">
+for(i = firstpage; i <= lastpage; i++)
+{
+	var pageindex = i-firstpage+1;
+	var pageListItem;
+	var countPages = lastpage-firstpage+1;
+	if(i == currentPage)
+		pageListItem = "<option value='" + i + "' selected>page " + pageindex;
+	else
+		pageListItem = "<option value='" + i + "'>page " + pageindex;
+	pageListItem = pageListItem + " of " + countPages + "</option>";
+	document.writeln(pageListItem);
+}
+</script>
+</select>
+</form>
+</td>
+
+    <td valign="top"><a href="#" onClick="javascript:zoomOut(); return false"><img border="0" src="pg_zoomout.gif" alt="Zoom Out"></a></td>
+    <td valign="top"><form name="zoomList">
+<select name="zoomSelected" onChange="zoomChange(this)" class="ZoomBox">
+<option value="50">50%</option>
+<option value="60">60%</option>
+<option value="70">70%</option>
+<option value="80">80%</option>
+<option value="90">90%</option>
+<option value="100" selected>100%</option>
+<option value="110">110%</option>
+<option value="120">120%</option>
+<option value="130">130%</option>
+<option value="140">140%</option>
+<option value="150">150%</option>
+<option value="160">160%</option>
+<option value="170">170%</option>
+<option value="180">180%</option>
+<option value="190">190%</option>
+<option value="200">200%</option>
+</select>
+</form>
+</td>
+    <td valign="top"><a href="#" onClick="javascript:zoomIn(); return false">		<img border="0" src="pg_zoomin.gif" alt="Zoom In"></a></td>
+    <td valign="top"><a href="#" onclick="parent.contents.document.execCommand('print'); return false">	<img border="0" src="pg_print.gif" alt="Print"></a></td>
+    <td valign="top"><a href="#" onclick="fullme(event); return false">			<img border="0" src="pg_fullscr.gif" alt="Full Screen View/Normal view"></a></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+</table>
+<script language="javascript">
+	var urlname = new String(parent.lbottom.location.href);
+	var pos = urlname.search("pg_index.htm");
+	if(pos == -1)
+		IsPageIndexLoaded = 0;
+	else
+		IsPageIndexLoaded = 1;
+	gotopage(parseInt(firstpage));
+</script>
+
+</body>
+</html>
