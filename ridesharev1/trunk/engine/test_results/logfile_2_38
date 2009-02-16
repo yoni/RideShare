@@ -1,0 +1,331 @@
+****************************************
+*            Running optimizer tests.
+****************************************
+* run_optimizers()
+***************************************
+* Running test_1: austinDemo2_1,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 3
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07343
+***************************************
+* Running test_2: austinDemo2_2,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 1
+The score after optimization is: 0.576481
+The score after optimization is: 2.50259
+***************************************
+* Running test_3: austinDemo2_3,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 1
+The score after optimization is: 0.293383
+The score after optimization is: 2.2329
+***************************************
+* Running test_4: austinDemo2_4,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 3
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07505
+***************************************
+* Running test_5: austinDemo2_5,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 2
+The score after optimization is: 0.26692
+The score after optimization is: 2.25893
+***************************************
+* Running test_6: austinDemo2_6,
+***************************************
+testDrivers.size() = 4
+testRiders.size() = 4
+The score after optimization is: 0.0767585
+The score after optimization is: 8.07676
+***************************************
+* Running test_7: austinDemo2_1,austinDemo2_2,
+***************************************
+testDrivers.size() = 2
+testRiders.size() = 4
+The score after optimization is: 0.0664083
+The score after optimization is: 5.06407
+***************************************
+* Running test_8: austinDemo2_1,austinDemo2_2,austinDemo2_3,
+***************************************
+testDrivers.size() = 3
+testRiders.size() = 5
+The score after optimization is: 0.054151
+The score after optimization is: 7.05025
+...Tests Completed.  Number of Assertions: 0
+Starting unit tests...
+****************************************
+*            Running optimizer tests.
+****************************************
+* run_optimizers()
+***************************************
+* Running test_1: austinDemo2_1,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 3
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07343
+***************************************
+* Running test_2: austinDemo2_2,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 1
+The score after optimization is: 0.576481
+The score after optimization is: 2.50259
+***************************************
+* Running test_3: austinDemo2_3,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 1
+The score after optimization is: 0.293383
+The score after optimization is: 2.2329
+***************************************
+* Running test_4: austinDemo2_4,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 3
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07505
+***************************************
+* Running test_5: austinDemo2_5,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 2
+The score after optimization is: 0.26692
+The score after optimization is: 2.25893
+***************************************
+* Running test_6: austinDemo2_6,
+***************************************
+testDrivers.size() = 4
+testRiders.size() = 4
+The score after optimization is: 0.0767585
+The score after optimization is: 8.07676
+***************************************
+* Running test_7: austinDemo2_1,austinDemo2_2,
+***************************************
+testDrivers.size() = 2
+testRiders.size() = 4
+The score after optimization is: 0.0664083
+The score after optimization is: 5.06407
+***************************************
+* Running test_8: austinDemo2_1,austinDemo2_2,austinDemo2_3,
+***************************************
+testDrivers.size() = 3
+testRiders.size() = 5
+The score after optimization is: 0.054151
+The score after optimization is: 7.05025
+***************************************
+* Running test_9: austinDemo2_1,austinDemo2_2,austinDemo2_3,austinDemo2_4,
+***************************************
+testDrivers.size() = 4
+testRiders.size() = 8
+The score after optimization is: 0.0314559
+Starting unit tests...
+****************************************
+*            Running optimizer tests.
+****************************************
+* run_optimizers()
+****************************************
+* Results for Brute Force Optimizer 
+****************************************
+***************************************
+* Running test_1: austinDemo2_1,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 3
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07343
+***************************************
+* Running test_2: austinDemo2_2,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 1
+The score after optimization is: 0.576481
+The score after optimization is: 2.50259
+***************************************
+* Running test_3: austinDemo2_3,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 1
+The score after optimization is: 0.293383
+The score after optimization is: 2.2329
+***************************************
+* Running test_4: austinDemo2_4,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 3
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07505
+***************************************
+* Running test_5: austinDemo2_5,
+***************************************
+testDrivers.size() = 1
+testRiders.size() = 2
+The score after optimization is: 0.26692
+The score after optimization is: 2.25893
+***************************************
+* Running test_6: austinDemo2_6,
+***************************************
+testDrivers.size() = 4
+testRiders.size() = 4
+The score after optimization is: 0.0767585
+The score after optimization is: 8.07676
+***************************************
+* Running test_7: austinDemo2_1,austinDemo2_2,
+***************************************
+testDrivers.size() = 2
+testRiders.size() = 4
+The score after optimization is: 0.0664083
+The score after optimization is: 5.06407
+***************************************
+* Running test_8: austinDemo2_1,austinDemo2_2,austinDemo2_3,
+***************************************
+testDrivers.size() = 3
+testRiders.size() = 5
+The score after optimization is: 0.054151
+The score after optimization is: 7.05025
+****************************************
+* Results for Bipartite Matching Optimizer 
+****************************************
+*    Running test_1: austinDemo2_1,
+****************************************
+testDrivers.size() = 1
+testRiders.size() = 3
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07343
+*    Running test_2: austinDemo2_2,
+****************************************
+testDrivers.size() = 1
+testRiders.size() = 1
+The score after optimization is: 0.576481
+The score after optimization is: 2.50259
+*    Running test_3: austinDemo2_3,
+****************************************
+testDrivers.size() = 1
+testRiders.size() = 1
+The score after optimization is: 0.293383
+The score after optimization is: 2.2329
+*    Running test_4: austinDemo2_4,
+****************************************
+testDrivers.size() = 1
+testRiders.size() = 3
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07505
+*    Running test_5: austinDemo2_5,
+****************************************
+testDrivers.size() = 1
+testRiders.size() = 2
+The score after optimization is: 0.0750542
+The score after optimization is: 0.0750542
+*    Running test_6: austinDemo2_6,
+****************************************
+testDrivers.size() = 4
+testRiders.size() = 4
+The score after optimization is: 0.0187636
+The score after optimization is: 0.0187636
+*    Running test_7: austinDemo2_1,austinDemo2_2,
+****************************************
+testDrivers.size() = 2
+testRiders.size() = 4
+The score after optimization is: 0.0664083
+The score after optimization is: 5.06407
+*    Running test_8: austinDemo2_1,austinDemo2_2,austinDemo2_3,
+****************************************
+testDrivers.size() = 3
+testRiders.size() = 5
+The score after optimization is: 0.054151
+The score after optimization is: 7.05025
+*    Running test_9: austinDemo2_1,austinDemo2_2,austinDemo2_3,austinDemo2_4,
+****************************************
+testDrivers.size() = 4
+testRiders.size() = 8
+The score after optimization is: 0.0314559
+The score after optimization is: 10.0301
+*    Running test_10: austinDemo2_1,austinDemo2_2,austinDemo2_3,austinDemo2_4,austinDemo2_5,
+****************************************
+testDrivers.size() = 5
+testRiders.size() = 10
+The score after optimization is: 0.0221659
+The score after optimization is: 10.0215
+*    Running test_11: austinDemo2_1,austinDemo2_2,austinDemo2_3,austinDemo2_4,austinDemo2_5,austinDemo2_6,
+****************************************
+testDrivers.size() = 9
+testRiders.size() = 14
+The score after optimization is: 0.0101617
+The score after optimization is: 10.01
+****************************************
+* Results for Genetic Optimizer 
+****************************************
+*    Running test_1: austinDemo2_1,
+****************************************
+      testDrivers.size() = 1
+      testRiders.size() = 3
+      The score after optimization is: 3.07343
+      The score after optimization is: 3.07343
+*    Running test_2: austinDemo2_2,
+****************************************
+      testDrivers.size() = 1
+      testRiders.size() = 1
+      The score after optimization is: 2.50259
+      The score after optimization is: 2.50259
+*    Running test_3: austinDemo2_3,
+****************************************
+      testDrivers.size() = 1
+      testRiders.size() = 1
+      The score after optimization is: 2.2329
+      The score after optimization is: 2.2329
+*    Running test_4: austinDemo2_4,
+****************************************
+      testDrivers.size() = 1
+      testRiders.size() = 3
+      The score after optimization is: 3.07505
+      The score after optimization is: 3.07505
+*    Running test_5: austinDemo2_5,
+****************************************
+      testDrivers.size() = 1
+      testRiders.size() = 2
+      The score after optimization is: 0.0750542
+      The score after optimization is: 0.0750542
+*    Running test_6: austinDemo2_6,
+****************************************
+      testDrivers.size() = 4
+      testRiders.size() = 4
+      The score after optimization is: 0.0187636
+      The score after optimization is: 0.0187636
+*    Running test_7: austinDemo2_1,austinDemo2_2,
+****************************************
+      testDrivers.size() = 2
+      testRiders.size() = 4
+      The score after optimization is: 5.06407
+      The score after optimization is: 5.06407
+*    Running test_8: austinDemo2_1,austinDemo2_2,austinDemo2_3,
+****************************************
+      testDrivers.size() = 3
+      testRiders.size() = 5
+      The score after optimization is: 7.05025
+      The score after optimization is: 7.05025
+*    Running test_9: austinDemo2_1,austinDemo2_2,austinDemo2_3,austinDemo2_4,
+****************************************
+      testDrivers.size() = 4
+      testRiders.size() = 8
+      The score after optimization is: 10.0301
+      The score after optimization is: 10.0301
+*    Running test_10: austinDemo2_1,austinDemo2_2,austinDemo2_3,austinDemo2_4,austinDemo2_5,
+****************************************
+      testDrivers.size() = 5
+      testRiders.size() = 10
+      The score after optimization is: 10.0215
+      The score after optimization is: 10.0215
+*    Running test_11: austinDemo2_1,austinDemo2_2,austinDemo2_3,austinDemo2_4,austinDemo2_5,austinDemo2_6,
+****************************************
+      testDrivers.size() = 9
+      testRiders.size() = 14
+      The score after optimization is: 10.01
+      The score after optimization is: 10.01
+...Tests Completed.  Number of Assertions: 0

@@ -1,0 +1,5 @@
+optimizer,test number,test cases,num drivers,num riders,total requests,initial score,final score,time in milliseconds
+bipartite matching,test_1,uPrefs_1,2,5,7,0.0028891,0.0028891,0
+bipartite matching,test_2,uPrefs_2,5,10,15,0.000706565,8.00071,10
+bipartite matching,test_3,uPrefs_3,8,15,23,0.000441603,4.00044,1
+bipartite matching,test_4,uPrefs_4,10,20,30,0.000353283,7.00035,36

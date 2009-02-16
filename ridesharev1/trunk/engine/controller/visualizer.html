@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>Ride Share</title>
+  <link rel="Stylesheet" href="style.css" />
+  <script type="text/javascript" src="solution_data.js"></script>
+  <script type="text/javascript" src="solution_control.js"></script>
+ </head>
+ <body onload="load()">
+  <div class="logo">
+   <img src="images/rideshare.png" alt="Rideshare" />
+  </div>
+ <form>
+   <div class="bigbox" style="float: left; width: 340px; margin-bottom: 10px;">
+    <div class="cornerImage tl">&nbsp;</div><div class="cornerImage tr">&nbsp;</div>
+    <div class="content">
+     <span style="font-size: 12pt;">Solution Information</span>
+        <br /><input type="label" class="label" id ="txt" />
+        <br /><input type="label" class="label" id ="score"  />
+        <br /><input type="label" class="label" id ="num_matches"  />
+        <br /><input type="label" class="label" id ="num_riders"  />
+        <br /><input type="button" class="button" id ="matches"  />
+        <br />
+        <input type="button" class="button" value="Start!" onClick="startVisualization()" />
+        <input type="button" class="button" value="Stop!" onClick="stopVisualization()" />
+        <input type="button" class="button" value="<" onClick="prevSolution()" />
+        <input type="button" class="button" value=">" onClick="nextSolution()" />
+
+    </div>
+   <div class="cornerImage bl">&nbsp;</div><div class="cornerImage br">&nbsp;</div>
+   <div class="fineprint">&copy; Copyright 2008</div>
+  </div>
+ </form>
+
+  <div id="map_canvas" style="border: 1px solid black; width:800px; margin-left: 350px; margin-right: 20px; margin-top: 20px;">
+    <img name=map_image src="image_pool/solution_0.gif" width="800px" height="640px" border=0 />
+  </div>
+ </body>
+</html>

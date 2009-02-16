@@ -1,0 +1,44 @@
+Running test_1: austinDemo2_1,
+testDrivers.size() = 1
+testRiders.size() = 3
+Testing Brute Force Optimizer
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07343
+Running test_2: austinDemo2_2,
+testDrivers.size() = 1
+testRiders.size() = 1
+Testing Brute Force Optimizer
+The score after optimization is: 0.576481
+The score after optimization is: 2.50259
+Running test_3: austinDemo2_3,
+testDrivers.size() = 1
+testRiders.size() = 1
+Testing Brute Force Optimizer
+The score after optimization is: 0.293383
+The score after optimization is: 2.2329
+Running test_4: austinDemo2_4,
+testDrivers.size() = 1
+testRiders.size() = 3
+Testing Brute Force Optimizer
+The score after optimization is: 0.0750542
+The score after optimization is: 3.07505
+Running test_5: austinDemo2_5,
+testDrivers.size() = 1
+testRiders.size() = 2
+Testing Brute Force Optimizer
+The score after optimization is: 0.26692
+The score after optimization is: 2.25893
+Running test_6: austinDemo2_6,
+testDrivers.size() = 4
+testRiders.size() = 4
+Testing Brute Force Optimizer
+The score after optimization is: 0.0767585
+The score after optimization is: 8.07676
+Running test_7: austinDemo2_1,
+austinDemo2_2,
+austinDemo2_3,
+testDrivers.size() = 3
+testRiders.size() = 5
+Testing Brute Force Optimizer
+The score after optimization is: 0.054151
+The score after optimization is: 7.05025

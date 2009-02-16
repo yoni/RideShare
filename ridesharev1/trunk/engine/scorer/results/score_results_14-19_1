@@ -1,0 +1,9 @@
+optimizer,test number,test cases,num drivers,num riders,total requests,initial score,final score,time in milliseconds
+bipartite matching,test_1,uPrefs_7,18,35,53,0.000328137,25.0003,3270
+bipartite matching,test_2,uPrefs_8,20,40,60,0.000176641,18.0002,520760
+bipartite matching,test_3,uPrefs_9,23,45,68,0.000153601,16.0002,19550
+bipartite matching,test_4,uPrefs_10,25,50,75,0.000141313,16.0001,736820
+genetic,test_1,uPrefs_7,18,35,53,25.0003,25.0003,894080
+genetic,test_2,uPrefs_8,20,40,60,26.0003,26.0003,228325
+genetic,test_3,uPrefs_9,23,45,68,31.0003,33.0003,1.23005e+06
+genetic,test_4,uPrefs_10,25,50,75,34.0002,34.0002,1.31938e+06

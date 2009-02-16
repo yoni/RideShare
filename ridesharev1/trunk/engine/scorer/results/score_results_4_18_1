@@ -1,0 +1,20 @@
+optimizer,test case,num drivers,num riders,initial score,final score,time in milliseconds
+brute force,test_1,1,3,0.0750542,3.07343,50
+brute force,test_2,1,1,0.576481,2.50259,0
+brute force,test_3,1,1,0.293383,2.2329,10
+brute force,test_4,1,3,0.0750542,3.07505,80
+brute force,test_5,1,2,0.26692,2.25893,10
+brute force,test_6,4,4,0.0767585,8.07676,2650
+brute force,test_7,2,5,0.0028891,0.0028891,460
+bipartite matching,test_1,1,3,0.00353283,0.00353283,30
+bipartite matching,test_2,1,1,0.00353283,0.00353283,20
+bipartite matching,test_3,1,1,0.00353283,0.00353283,20
+bipartite matching,test_4,1,3,0.00353283,0.00353283,30
+bipartite matching,test_5,1,2,0.00353283,0.00353283,30
+bipartite matching,test_6,4,4,0.000883207,0.000883207,170
+bipartite matching,test_7,2,5,0.0028891,0.0028891,100
+bipartite matching,test_8,5,10,0.000706565,8.00071,12060
+bipartite matching,test_9,8,15,0.000441603,4.00044,1630
+bipartite matching,test_10,10,20,0.000353283,7.00035,36530
+bipartite matching,test_11,13,25,0.000271756,10.0003,46160
+bipartite matching,test_12,15,30,0.000235522,12.0002,2.03559e+06

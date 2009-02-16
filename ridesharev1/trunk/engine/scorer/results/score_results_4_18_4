@@ -1,0 +1,35 @@
+optimizer,test number,test cases,num drivers,num riders,initial score,final score,time in milliseconds
+bipartite matching,test_1,austinDemo2_1,1,3,4,0.0750542,3.07343,20
+bipartite matching,test_2,austinDemo2_2,1,1,2,0.0750542,0.0750542,10
+bipartite matching,test_3,austinDemo2_3,1,1,2,0.0750542,0.0750542,10
+bipartite matching,test_4,austinDemo2_4,1,3,4,0.0750542,3.07505,30
+bipartite matching,test_5,austinDemo2_5,1,2,3,0.0750542,0.0750542,10
+bipartite matching,test_6,austinDemo2_6,4,4,8,0.0187636,0.0187636,40
+bipartite matching,test_7,austinDemo2_1;austinDemo2_2,2,4,6,0.0375271,3.03712,50
+bipartite matching,test_8,austinDemo2_1;austinDemo2_2;austinDemo2_3,3,5,8,0.0250181,3.02483,80
+bipartite matching,test_9,austinDemo2_1;austinDemo2_2;austinDemo2_3;austinDemo2_4,4,8,12,0.0187636,6.01866,110
+bipartite matching,test_10,austinDemo2_1;austinDemo2_2;austinDemo2_3;austinDemo2_4;austinDemo2_5,5,10,15,0.0150108,6.01501,140
+bipartite matching,test_11,austinDemo2_1;austinDemo2_2;austinDemo2_3;austinDemo2_4;austinDemo2_5;austinDemo2_6,9,14,23,0.00833936,6.00832,220
+bipartite matching,test_12,uPrefs_1,2,5,7,0.0375271,7.03753,90
+bipartite matching,test_13,uPrefs_2,5,10,15,0.0150108,15.015,310
+bipartite matching,test_14,uPrefs_3,8,15,23,0.00938178,23.0094,600
+bipartite matching,test_15,uPrefs_4,10,20,30,0.00750542,28.0075,1120
+bipartite matching,test_16,uPrefs_5,13,25,38,0.0057734,35.0058,1600
+bipartite matching,test_17,uPrefs_6,15,30,45,0.00500362,42.005,2420
+genetic,test_1,austinDemo2_1,1,3,4,3.07343,3.07343,3270
+genetic,test_2,austinDemo2_2,1,1,2,2.50259,2.50259,1190
+genetic,test_3,austinDemo2_3,1,1,2,2.2329,2.2329,1180
+genetic,test_4,austinDemo2_4,1,3,4,3.07505,3.07505,2970
+genetic,test_5,austinDemo2_5,1,2,3,2.25893,2.25893,1160
+genetic,test_6,austinDemo2_6,4,4,8,8.07676,8.07676,5900
+genetic,test_7,austinDemo2_1;austinDemo2_2,2,4,6,5.06407,5.06407,4580
+genetic,test_8,austinDemo2_1;austinDemo2_2;austinDemo2_3,3,5,8,7.05025,7.05025,6550
+genetic,test_9,austinDemo2_1;austinDemo2_2;austinDemo2_3;austinDemo2_4,4,8,12,10.0301,10.0301,9260
+genetic,test_10,austinDemo2_1;austinDemo2_2;austinDemo2_3;austinDemo2_4;austinDemo2_5,5,10,15,12.027,12.027,11060
+genetic,test_11,austinDemo2_1;austinDemo2_2;austinDemo2_3;austinDemo2_4;austinDemo2_5;austinDemo2_6,9,14,23,20.0199,20.02,17070
+genetic,test_12,uPrefs_1,2,5,7,0.0028891,0.0028891,3030
+genetic,test_13,uPrefs_2,5,10,15,6.00098,6.00098,16920
+genetic,test_14,uPrefs_3,8,15,23,10.0008,11.0007,41550
+genetic,test_15,uPrefs_4,10,20,30,11.0007,11.0007,52510
+genetic,test_16,uPrefs_5,13,25,38,17.0005,17.0005,203490
+genetic,test_17,uPrefs_6,15,30,45,18.0004,19.0005,470040
