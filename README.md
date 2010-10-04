@@ -5,7 +5,7 @@ A ride share matching web application. Product of a design project at the Depart
 Authors: Yoni Ben-Meshulam, Garrett Cooper, Dereck Huhh and Patrick Lowry
 Advisor: Dr. Constantine Caramanis
 
-A PHP based website that allows for users to manage rides:
+A PHP based website that allows users to manage rides:
     rideshare/www
 
 A C++ based optimization engine that finds matches:
