@@ -10574,13 +10574,9 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 -- 
 
-INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `email_addr`, `password`, `gender_id`, `age`, `rating`, `num_times_rated`, `rssurl`, `rsaN`, `rsaD`, `rsaE`) VALUES (1, 'Patrick', 'Lowry', 'lowry@ece.utexas.edu', '2f6ec242406fd8e9', 1, 21, 0, 0, 'MTA5Mzk2ODU=', 34452347, 10311707, 8243),
-(2, 'Derrick', 'Huhn', 'derrickhuhn@mail.utexas.edu', '2f6ec242406fd8e9', 1, 22, 0, 0, 'MjAyMzczOTQ=', 34135109, 16149239, 8807),
-(3, 'Garrett', 'Cooper', 'barbarossa@gmail.com', '2f6ec242406fd8e9', 1, 22, 0, 0, 'MzAyMjcxMTA=', 36925573, 8656301, 5501),
-(4, 'Yoni', 'Ben-Meshulam', 'yoni.bmesh@gmail.com', '2f6ec242406fd8e9', 1, 28, 0, 0, 'MTg2MjMwNzA=', 32922247, 5248367, 4703),
+INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `email_addr`, `password`, `gender_id`, `age`, `rating`, `num_times_rated`, `rssurl`, `rsaN`, `rsaD`, `rsaE`) VALUES 
+
 (5, 'Rachel', 'Rider', 'rachel@rider.org', '2f6ec242406fd8e9', 1, 18, 0, 0, 'MTg3MDI4Njc=', 39060239, 3543181, 6469),
-(9, 'CheolHee', 'Park', 'signalp2@gmail.com', '472400e00d4e84b3', 1, 0, 0, 0, 'MzE5MDY1NDE=', 42118319, 32889311, 7703),
-(10, 'Michael', 'Diaz-Tello', 'mdiaz.tello@gmail.com', '512fa2f77e7337b7', 1, 22, 0, 0, 'NDQyNTYwMDQ=', 46877881, 42135453, 8117),
 (11, 'John', 'Tester', 'rideshare000@gmail.com', '2f6ec242406fd8e9', 1, 20, 0, 0, 'MTQ3MzY4OTU=', 63348011, 7121389, 6661),
 (12, 'David', 'Tester', 'rideshare001@gmail.com', '2f6ec242406fd8e9', 1, 30, 0, 0, 'MjQwMTc5MDM=', 39397129, 14992855, 8167),
 (13, 'Dave', 'Driver', 'rideshare002@gmail.com', '2f6ec242406fd8e9', 1, 18, 0, 0, 'MjQyNzEwNzc=', 51881429, 46335469, 5701),
@@ -10589,24 +10585,13 @@ INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `email_addr`, `passwo
 (16, 'Rainbow', 'Rider', 'rideshare005@gmail.com', '2f6ec242406fd8e9', 1, 60, 0, 0, 'MTEyMjI2MDI=', 35338669, 868521, 8501),
 (17, 'Ramses', 'Rider', 'rideshare006@gmail.com', '2f6ec242406fd8e9', 1, 50, 0, 0, 'MTgzODMxMDE=', 56287613, 24957403, 5107),
 (18, 'Trina', 'Tester', 'rideshare007@gmail.com', '2f6ec242406fd8e9', 2, 25, 0, 0, 'ODQyNTQxMw==', 38135689, 494881, 9013),
-(19, 'Doug', 'Reed', 'dreed@ece.utexas.edu', '4b5698aa4603595b', 1, 20, 0, 0, 'NjAwODgzOQ==', 47585521, 6657439, 4759),
 (21, 'Tova', 'Tester', 'rideshare009@gmail.com', '2f6ec242406fd8e9', 2, 0, 0, 0, 'NzE0OTU1NzA=', 71999617, 56669279, 5119),
 (20, 'Tammy', 'Tester', 'rideshare008@gmail.com', '2f6ec242406fd8e9', 2, 30, 0, 0, 'NzUxOTkwNDQ=', 85881371, 27493955, 5003),
 (22, 'David', 'Hasselhoff', 'rideshare010@gmail.com', '1162c6d624227d35', 0, 20, 0, 0, 'MTcyMDg3ODc=', 50128889, 26230975, 8647),
 (23, 'Alan', 'Ginsberg', 'rideshare011@gmail.com', '2f6ec242406fd8e9', 0, 25, 0, 0, 'MjEyNjM1NDk=', 31232573, 18316501, 5521),
 (24, 'Kevin', 'Kline', 'rideshare012@gmail.com', '472400e00d4e84b3', 0, 30, 0, 0, 'MzI4OTYwMzE=', 46580711, 40657403, 4547),
 (25, 'Phillippe', 'Zantoso', 'rideshare013@gmail.com', '512fa2f77e7337b7', 0, 0, 0, 0, 'MTU4NjI1OTk=', 79101889, 18099473, 6257),
-(26, 'Paul', 'Byron', 'rideshare014@gmail.com', '512fa2f77e7337b7', 1, 0, 0, 0, 'OTU2MDE0OQ==', 33585137, 15049907, 7703),
-(37, 'Steve', 'Jobs', 'amdprogrammingcontest@gmail.com', '2f6ec242406fd8e9', NULL, NULL, 0, 0, 'MzYyOTQ3NTY=', 50472703, 12740033, 6737),
-(38, 'Devin', 'Vitone', 'devin.vitone@mail.utexas.edu', '5246b57f3a591d98', 1, 23, 0, 0, 'Mjc2MjczNA==', 32076403, 26860709, 4621),
-(39, 'Constantine', 'Caramanis', 'cmcaram@ece.utexas.edu', '158d8e745fb23640', NULL, NULL, 0, 0, 'MTQ5MzUyMDE=', 29298509, 27951931, 7411),
-(40, 'Josh', 'Payne', 'joshpayne@mail.utexas.edu', '01d876f26f08fd5c', 1, 22, 0, 0, 'NTg0ODk0Mzk=', 65993153, 13354619, 6131),
-(41, 'Goo', 'Jun', 'goo.jun@gmail.com', '5c97443e345f8dc0', NULL, NULL, 0, 0, 'NTUyNzk2MDE=', 66141851, 18879829, 6469),
-(42, 'Cameron', 'Davison', 'cameron.davison@gmail.com', '1b7f13203dd095e3', 1, 21, 0, 0, 'MjI0MDg0Nw==', 40467629, 22058363, 8627),
-(43, 'Peng', 'Zeng', 'alexpzeng@gmail.com', '3b906a3f37a3bb54', 1, 21, 0, 0, 'MjQ1NjA4NzI=', 88377901, 77079773, 6737),
-(44, 'Edgar', 'Becerra', 'edguix@yahoo.com', '3d2251e8380e0dbe', 1, 21, 0, 0, 'NDQ0MDYwNTY=', 58063559, 28010141, 8501),
-(45, 'Dhruv', 'Bansal', 'dhruv@ph.utexas.edu', '3694debe54d9af8b', NULL, NULL, 0, 0, 'NTYwMjIyNA==', 29817391, 21948379, 6547),
-(46, 'Eric', 'Moore', 'eric.d.moore@gmail.com', '61459d9e49dfbccb', 1, 22, 0, 0, 'MTU1NjAwNDM=', 31436513, 14512979, 6719);
+(26, 'Paul', 'Byron', 'rideshare014@gmail.com', '512fa2f77e7337b7', 1, 0, 0, 0, 'OTU2MDE0OQ==', 33585137, 15049907, 7703);
 
 -- --------------------------------------------------------
 
@@ -10625,10 +10610,3 @@ CREATE TABLE `users_pending_validation` (
   PRIMARY KEY  (`email_addr`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- 
--- Dumping data for table `users_pending_validation`
--- 
-
-INSERT INTO `users_pending_validation` (`validation_key`, `key_sent_date`, `first_name`, `last_name`, `email_addr`, `password`) VALUES ('df8d2eb19ded13d7b815a0dc165cb4f96de4cf9e', '2008-04-22 13:28:06', 'michael', 'wei', 'aznrayvon@yahoo.com', '009094026f11b5c7'),
-('499544d4977a0a7a6c6798b1c10864f137e327c7', '2008-04-22 16:11:49', 'Thomas', 'Hallock', 'rideshare.20.antialias@spamgourmet.com', '3fb35da616866497'),
-('744939a8fbb2a8e871393cf14e918c5c9cecbffa', '2008-04-23 22:29:08', 'Nikhil', 'Murthy', 'nikhilmurthy@hotmail.com', '31c578ca54307042');
