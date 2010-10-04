@@ -12,8 +12,11 @@ The product of a design project at the Department of Electrical and Computer Eng
 
 ## Authors
 Yoni Ben-Meshulam
+
 Garrett Cooper
+
 Dereck Huhh
+
 Patrick Lowry
 
 ## Advisor
