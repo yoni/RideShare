@@ -11,7 +11,8 @@ A C++ based optimization engine that finds matches:
 The product of a design project at the Department of Electrical and Computer Engineering at the University of Texas at Austin.
 
 ## Authors
-Yoni Ben-Meshulam
+
+[Yoni Ben-Meshulam](http://heyitsyoni.com)
 
 Garrett Cooper
 
@@ -20,7 +21,7 @@ Dereck Huhh
 Patrick Lowry
 
 ## Advisor
-Dr. Constantine Caramanis
+[Dr. Constantine Caramanis](http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html)
 
 ## License
 Apache License, Version 2.0
