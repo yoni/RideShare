@@ -25,7 +25,7 @@ Dereck Huhh
 Patrick Lowry
 
 ## Advisor
-[Dr. Constantine Caramanis](http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html)
+[Constantine Caramanis](http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html)
 
 ## License
 Apache License, Version 2.0
